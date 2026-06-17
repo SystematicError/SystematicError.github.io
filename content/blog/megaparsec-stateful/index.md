@@ -19,6 +19,9 @@ Over the course of this tutorial, we will be making a simple chatbot that manage
 
 ![Final product](demo.png)
 
+> [!note]
+> Whilst this chatbot is quite simple, I have implemented a much more capable and versatile chatbot [here](https://github.com/SystematicError/lgpt), which uses a similar stateful parser at its core. That challenges that I faced developing that led to me write this blog post!
+
 # Getting started
 
 We can begin building our Megaparsec parser using the `Parsec` type. This type has quite a few parameters, and it looks (somewhat) like this:
